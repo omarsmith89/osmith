@@ -1,0 +1,61 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione  
+
+*/
+
+html {
+	/* set up a background image */
+	
+	background: url('../images/jordan.jpg') no-repeat;
+
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1{
+		background: black;
+		color: white;
+		font-size: 50px
+}
+h2 {
+		background: #CE1141; /*Bulls Red*/
+		color: black;
+		padding: 5px;
+		border: 2px ;
+  		border-radius: 25px;
+
+}
+p {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+#container {
+		background: black;
+		width: 400px;
+		margin: 5px;
+		padding: 25px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
